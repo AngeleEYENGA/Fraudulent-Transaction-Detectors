@@ -11,7 +11,7 @@ import base64
 
 # --- layout / style
 st.set_page_config(page_title="Fraudulent Transaction Detector - MAEA Tech", layout="wide")
-PRIMARY = "#0BC5EA"  # change si tu veux
+PRIMARY = "#ffffff"  # change si tu veux
 ACCENT = "#0A2540"
 
 # header with logo
@@ -107,3 +107,4 @@ st.markdown(f"[⬇️ Télécharger le rapport CSV](data:text/csv;base64,{b64})"
 
 st.markdown("---")
 st.info("Astuce : tu peux uploader un CSV réel et ajuster les règles dans utils/fraud_rules.py pour correspondre à un profil métier.")
+
