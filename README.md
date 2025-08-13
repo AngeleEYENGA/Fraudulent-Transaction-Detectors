@@ -1,7 +1,14 @@
 # Fraudulent Transaction Detector 💳🔍
 
 Détection de transactions frauduleuses grâce au Machine Learning.  
-Projet réalisé par **Angèle EYENGA** (MAEA Tech).
+Projet réalisé par **Angèle Eyenga** (MAEA Tech).
+
+---
+
+## 🌍 Application en ligne
+🚀 **[Accéder à l'application ici](https://fraudulent-transaction-detectors-6frysrvnisbsn5etqekijc.streamlit.app/#fraudulent-transaction-detector)**
+
+---
 
 ## 🚀 Fonctionnalités
 - Chargement et prétraitement des données
@@ -14,9 +21,11 @@ Projet réalisé par **Angèle EYENGA** (MAEA Tech).
 - Pandas / NumPy
 - Scikit-learn
 - Matplotlib / Seaborn
+- **Streamlit** (déploiement web)
 
-## 📦 Installation
+## 📦 Installation locale
 ```bash
 git clone https://github.com/AngeleEYENGA/Fraudulent-Transaction-Detectors.git
 cd Fraudulent-Transaction-Detectors
 pip install -r requirements.txt
+streamlit run app.py
